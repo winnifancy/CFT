@@ -1380,7 +1380,7 @@ html {
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.875;
   color: #666;
   background-color: #fff;
@@ -1560,7 +1560,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h6, .h6 {

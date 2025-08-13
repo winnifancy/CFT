@@ -767,7 +767,7 @@ img.aligncenter {
 2. Body / body
 -------------------------------------------------------------------*/
 body {
-  font-weight: 300;
+  font-weight: 500;
   min-width: 320px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -882,7 +882,7 @@ h6 a,
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.2);
+  /*background: rgba(0, 0, 0, 0.2);*/
 }
 
 a:hover, a:focus, a.active {
@@ -1418,7 +1418,7 @@ a:hover, a:focus, a.active {
 16. Features List / .features-list
 -------------------------------------------------------------------*/
 .features-list {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-family: empty;
 }
@@ -2066,7 +2066,7 @@ a:hover, a:focus, a.active {
 }
 
 .aside p {
-  margin: 0 0 26px;
+  margin: 0 ;
 }
 
 .aside .logo {
