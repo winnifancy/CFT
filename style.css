@@ -1442,8 +1442,6 @@ a:hover, a:focus, a.active {
   left: 0;
   top: 0;
   text-align: center;
- 
-  text-align: center;
 }
 
 .features-list p {
@@ -2078,12 +2076,17 @@ a:hover, a:focus, a.active {
 /*------------------------------------------------------------------
 29. Footer / #footer
 -------------------------------------------------------------------*/
-#footer {
+footer {
   color: #d9dbdc;
   text-align: center;
   padding-bottom: 77px;
   background-color: #021116;
 }
+/*footer {
+  padding: 80px 0px;
+  background: rgb(51,155,158);
+  background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgba(104,204,152,1) 100%);
+}*/
 
 /*------------------------------------------------------------------
 30. Back Top / #back-top
@@ -2154,4 +2157,17 @@ a:hover, a:focus, a.active {
 .text-container {
   float: left;
 }
+/*#application {
+background-color: #ffffff;
+background-image: radial-gradient(#b0bfc4 0.75px, #ffffff 0.75px);
+background-size: 15px 15px;
+}*/
+#application {
+bbackground-color: #ffffff;
+opacity: 1;
+background-image: radial-gradient(#99a6a6 0.75px, #ffffff 0.75px);
+background-size: 15px 15px;}
 
+#footer p{
+ font-size: 18px;
+}

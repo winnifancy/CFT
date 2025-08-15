@@ -1963,7 +1963,7 @@ pre code {
 
 @media (min-width: 1230px) {
   .container {
-    width: 1200px;
+    /*width: 1200px;*/
   }
 }
 
