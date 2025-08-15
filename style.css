@@ -1406,7 +1406,7 @@ a:hover, a:focus, a.active {
 15. Features Area / .features-area
 -------------------------------------------------------------------*/
 .features-area {
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   color: #51595b;
 }
 
@@ -1424,7 +1424,7 @@ a:hover, a:focus, a.active {
 }
 
 .features-list li {
-  padding: 0 15px 0 82px;
+  /*padding: 0 15px 0 82px;*/
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   margin: 0 0 30px;
@@ -2133,3 +2133,25 @@ a:hover, a:focus, a.active {
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
+.newcontent{
+  display: flex;
+  justify-content: center ;
+}
+.newcontent li, .noli li{
+ list-style:none;
+ list-style-type: none;
+}
+#contact {
+  color: #d9dbdc;
+  background-color: #e1e1e1;
+}
+
+.image-container {
+  float: left;
+}
+
+.text-container {
+  float: left;
+}
+
