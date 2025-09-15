@@ -1478,13 +1478,23 @@ hr {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: #222222;
 }
+
+h4 {
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1c55bf;
+}
+  
+
+  
 
 h1 small,
 h1 .small, h2 small,
