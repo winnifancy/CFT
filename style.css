@@ -869,6 +869,20 @@ h6 a,
   transition: color 0.25s linear;
 }
 
+
+h2.heading::before {
+  /* 插入圖案的語法 */
+  content: url(images/heading.png); /* 替換成你的圖案路徑 */
+
+  /* 調整圖案與文字的對齊與顯示 */
+  display: inline-block; /* 讓圖案能調整大小並與文字基線對齊 */
+  vertical-align: middle; /* 垂直居中對齊 */
+  margin-right: 8px; /* 在圖案與文字之間增加間距 */
+
+  /* 可選：調整圖案大小 
+  width: 20px;
+  height: 20px;*/
+}
 .overlay {
   position: relative;
   z-index: 1;
@@ -1407,7 +1421,7 @@ a:hover, a:focus, a.active {
 -------------------------------------------------------------------*/
 .features-area {
   /*padding-top: 15px;*/
-  color: #51595b;
+  color: #403e3e;
 }
 
 .features-area .heading-wrap {
