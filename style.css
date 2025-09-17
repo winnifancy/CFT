@@ -868,6 +868,7 @@ h6 a,
   color: inherit;
   transition: color 0.25s linear;
 }
+h2.heading {  margin-top: 120px;}
 
 
 h2.heading::before {
@@ -1425,7 +1426,7 @@ a:hover, a:focus, a.active {
 }
 
 .features-area .heading-wrap {
-  margin-bottom: 35px;
+  margin-bottom: 105px;
 }
 
 /*------------------------------------------------------------------
@@ -2084,7 +2085,7 @@ a:hover, a:focus, a.active {
 .aside .logo {
   float: none;
   margin: 0 auto 28px;
-  max-width: 132px;
+  max-width: 100px;
 }
 
 /*------------------------------------------------------------------
@@ -2177,7 +2178,7 @@ background-image: radial-gradient(#b0bfc4 0.75px, #ffffff 0.75px);
 background-size: 15px 15px;
 }*/
 #application {
-bbackground-color: #ffffff;
+background-color: #ffffff;
 opacity: 1;
 background-image: radial-gradient(#99a6a6 0.75px, #ffffff 0.75px);
 background-size: 15px 15px;}
@@ -2235,3 +2236,8 @@ padding: 5px;
 .pic{width:220px;overflow:hidden;}
 .pic img{transform:scale(1,1);transition: all 1s ease-out;}
 .pic img:hover{transform:scale(1.2,1.2);}
+
+.add{
+  font-size: 0.9em;
+  color: #000;
+}
