@@ -1300,6 +1300,10 @@ a:hover, a:focus, a.active {
 .hero-area h1 .clr {
   color: #002d40;
 }
+.container h1{  
+  background-color: #0002df;
+  margin-top: 100px;  
+}
 
 .hero-area p {
   margin: 0 0 25px;

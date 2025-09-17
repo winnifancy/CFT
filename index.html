@@ -84,17 +84,15 @@
 		<!-- Main of the page -->
 		<main id="main">
 			<!-- Hero area of the page -->
-			<section class="hero-area text-center overlay" style="background-image: url(images/slide-1.jpg);" data-scroll-index="0">
+			<section class="hero-area text-center overlay img-responsive" style="background-image: url(images/slide-1.jpg);" data-scroll-index="0">
 				<div id="particles-js"></div>
 				<div class="container">
-					<div class="row">
-						<header class="heading-holder col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-							<h1><!--span class="text-small">Patent NO. Tw111106757</span-->C.FT Magnetic Power</h1>
+					<header class="heading-holder col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+						<h1><!--span class="text-small">Patent NO. Tw111106757</span-->Magnetic Power</h1>
 
-						</header>
-					</div>
+					</header>				
 					<div class="aligncenter">
-						<img src="images/macbook.png" alt="image description m-top" class="img-responsive">
+						<img src="images/magnetic.png" alt="image description m-top" class="img-responsive">
 					</div>
 				</div>
 			</section>
@@ -130,110 +128,82 @@
 				<p>對照一般標準10HP馬達,超節能馬達選用12(6/6)HP的規格,啟動時為12HP,幾秒後到達額定區間,關掉一組線圈,只剩一組線圈,以6HP持續運作。這樣就能不用變頻器也能改變馬達輪出。若在加裝變頻器,還可達成更大的節能效益。</p>	
 			</li>
 			<li>
-			<h4>三相雙線圈馬達不同繞法比較</h4>
-			<div id="div_table">
-				<div class='div_table'>
-					<div class='div_tr'>
-						<div class='div_td'>&nbsp; &nbsp;</div>					
-						<div class='div_td'>相同雙線圈</div>							
-						<div class='div_td'>不相同雙線圈</div>
-						<div class='div_td'>傳統單線圈</div>
-						</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>例子</div>					
-						<div class='div_td'>3\3HP</div>							
-						<div class='div_td'>2\4HP</div>
-						<div class='div_td'>5HP</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>外殼FHFC</div>					
-						<div class='div_td'>112M(同馬力設計外殼幾乎完全相同，即傳統5HP馬達殼)</div>							
-						<div class='div_td'>112M</div>
-						<div class='div_td'>112M</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>極數P</div>					
-						<div class='div_td'>4P</div>							
-						<div class='div_td'>4\6P(小馬力時，極數變多，比相同雙線圈更慢)</div>
-						<div class='div_td'>4P</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>滿載轉速</div>					
-						<div class='div_td'>&nbsp;</div>							
-						<div class='div_td'>&nbsp;</div>
-						<div class='div_td'>1755</div>	
-					</div>
-
-					
-					<div class='div_tr'>
-						<div class='div_td'><nobr>啟動時差異</nobr></div>					
-						<div class='div_td'><font color="red">可雙線圈同時啟動</font><br>
-							之後再看需求切換單線圈</div>							
-						<div class='div_td'><font color="red">不可雙線圈同時啟動</font><br>
-							只能先啟動大馬力線圈，到達目標轉速之後再關掉。
-							緊接再啟動小馬力線圈
+				<h4>三相雙繞組馬達不同繞法比較</h4>
+				<div id="div_table">
+					<div class='div_table'>
+						<div class='div_tr'>
+							<div class='div_td'>&nbsp; &nbsp;</div>					
+							<div class='div_td'>雙繞組（同極數/同馬力）</div>							
+							<div class='div_td'>雙繞組（不同極數/不同馬力）</div>
+							<div class='div_td'>單繞組（傳統設計）</div>
 							</div>
-						<div class='div_td'>單線圈沒有這種問題</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'><nobr>無載電流220V</nobr></div>					
-						<div class='div_td'>3HP 時3.9\3.8</div>							
-						<div class='div_td'>&nbsp;</div>
-						<div class='div_td'>5.698</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'><nobr>啟動電流220V</nobr></div>					
-						<div class='div_td'>87</div>							
-						<div class='div_td'>&nbsp;</div>
-						<div class='div_td'>94</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'><nobr>滿載電流220V</nobr></div>					
-						<div class='div_td'>3HP 時7.8\7.9</div>							
-						<div class='div_td'>&nbsp;</div>
-						<div class='div_td'>13.5</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>由雙線圈<font color="red">分段改變輸出，此時還不需變頻器</font></div>					
-						<div class='div_td'>雙線圈同時啟動為6HP切換單線圈時為3HP</div>							
-						<div class='div_td'>大馬力線圈啟動時4HP
-小馬力線圈啟動時2HP(極數變多，變慢，)</div>
-						<div class='div_td'>單線圈只能靠變頻器來改變輸出</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'><font color="red">分段後若有需求可再變頻器介入</font></div>					
-						<div class='div_td'>可用3HP變頻器<br>變頻器成本較傳統馬達下降(甚至能用2HP變頻器，實驗中，數據不確定能否穩定)</div>					
-						<div class='div_td'>可用2HP變頻器<br>變頻器成本較傳統馬達下降</div>	
-						<div class='div_td'>單線圈只能靠變頻器來改變輸出</div>	
-					</div>
-
-					<div class='div_tr'>
-						<div class='div_td'>分段後轉速</div>					
-						<div class='div_td'>3HP 時1755(之後計算用1800好算)</div>					
-						<div class='div_td'>公式推算約為1200</div>	
-						<div class='div_td'>無分段</div>	
-					</div>
-
-					</div>
-
-				</div>
+	
+						<div class='div_tr'>
+							<div class='div_td'>同外殼112M，不同馬力(HP)配比</div>					
+							<div class='div_td'>6(3\3)HP</div>							
+							<div class='div_td'>6(2\4)HP</div>
+							<div class='div_td'>5HP</div>	
+						</div>
+	
 			
-
-							<div>	
-
-							</li>
-						</ul>	
-									
-		</div>
+						<div class='div_tr'>
+							<div class='div_td'>極數P</div>					
+							<div class='div_td'>4P</div>							
+							<div class='div_td'>4\6P(小馬力時，極數變多，比相同雙繞組更慢)</div>
+							<div class='div_td'>4P</div>	
+						</div>
+	
+						
+						<div class='div_tr'>
+							<div class='div_td'><nobr>啟動時差異</nobr></div>					
+							<div class='div_td'><font color="red">可雙繞組同時啟動</font><br>
+								再切換單繞組</div>							
+							<div class='div_td'><font color="red">不可雙繞組同時啟動</font><br>
+								只能先啟動大馬力繞組，再關掉。再啟動小馬力繞組
+								</div>
+							<div class='div_td'>單繞組無這種問題</div>	
+						</div>
+	
+						<div class='div_tr'>
+							<div class='div_td'><nobr>無載電流220V</nobr></div>					
+							<div class='div_td'>3HP 時3.9\3.8(<font color="red">電流</font>相除3.9/5.698=68.4%<font color="red">約省電30%</font>)</div>							
+							<div class='div_td'>&nbsp;</div>
+							<div class='div_td'>5.698</div>	
+						</div>
+	
+	
+						<div class='div_tr'>
+							<div class='div_td'><nobr>滿載電流220V</nobr></div>					
+							<div class='div_td'>3HP 時7.8\7.9</div>							
+							<div class='div_td'>&nbsp;</div>
+							<div class='div_td'>13.5</div>	
+						</div>
+	
+						<div class='div_tr'>
+							<div class='div_td'>雙繞組<font color="red">分段改變輸出，此時還不需變頻器</font></div>					
+							<div class='div_td'>雙繞組6HP;切換單繞組3HP</div>							
+							<div class='div_td'>大馬力繞組啟動時4HP;小馬力繞組啟動時2HP(極數變多，變慢，)</div>
+							<div class='div_td'>只能靠變頻器來改變輸出</div>	
+						</div>
+	
+						<div class='div_tr'>
+							<div class='div_td'><font color="red">分段後若有需求可再變頻器介入</font></div>					
+							<div class='div_td'>可用3HP變頻器<br><font color="red">變頻器成本較傳統馬達下降</font></div>					
+							<div class='div_td'>可用2HP變頻器<br><font color="red">變頻器成本較傳統馬達下降</font></div>	
+							<div class='div_td'>需用額訂規格變頻器，整體成本高於雙繞組設計。</div>	
+						</div>
+	
+						</div>
+	
+					</div>
+				
+	
+								<div>	
+	
+								</li>
+							</ul>	
+										
+			</div>
 			
 
 				
@@ -283,20 +253,25 @@
 						<li>
 							<img src="images/pic-89202253.jpg" width="400" height="300" alt="icon id-card" class="img-responsive">		
 							<br>
-							<h5 data-scroll-index="4"><center>電梯馬達</center></h5>
+							<h5><center>電梯馬達</center></h5>
+							<div data-scroll-index="4"> </div>
 						</li>			
 					</ul>
 			<!-- Features of the page end -->
+		
 			 </div>
 			 </div>
+			
 		</section>
+		
+		
  </div>
 		<!-- Features area of the page end -->
 
 
 
 			<!-- Trial block of the page -->
-			<div id="application" >
+			
 			<section class="trial-block container" >
 				<div class="row">
 					<!--div class="alignleft">
