@@ -1729,7 +1729,7 @@ h6 a,
 .intro-aside .center-block {
   max-width: 1238px;
   border-radius: 1px;
-  background: #fff url("images/bg01.jpg") 50% 50%;
+  /*background: #fff url("images/bg01.jpg") 50% 50%;*/
   box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.11);
   padding: 40px 10px 22px;
 }

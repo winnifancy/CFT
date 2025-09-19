@@ -102,7 +102,7 @@
       line-height: 16px;
       min-width: 120px; }
     .navbar-default .navbar-collapse {
-      float: right;
+      float: left;
       position: static;
       background: none; }
     .navbar-default .navbar-nav {
