@@ -1056,6 +1056,8 @@ a:hover, a:focus, a.active {
   padding-bottom: 11px;
   transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
+ 
+
 }
 
 #header .holder {
@@ -1104,11 +1106,12 @@ a:hover, a:focus, a.active {
 -------------------------------------------------------------------*/
 .navbar-default {
   border: 0;
-  float: right;
+  float:right;
   width: calc(100% - 150px);
   position: static;
   margin: -4px 0 0;
   padding: 0;
+ 
 }
 
 .navbar-default .navbar-header {
@@ -1286,14 +1289,15 @@ a:hover, a:focus, a.active {
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  margin: 0 0 8px;
+  /*margin: 0 0 8px;*/
+ 
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.09);
 }
 
 .hero-area h1 .text-small {
   font: 300 17px/35px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: block;
-  margin: 0 0 16px;
+  /*margin: 0 0 16px;*/
   text-transform: lowercase;
 }
 
@@ -1302,7 +1306,7 @@ a:hover, a:focus, a.active {
 }
 .container h1{  
   background-color: #0002df;
-  margin-top: 100px;  
+  margin-top: 10px;  
 }
 
 .hero-area p {
