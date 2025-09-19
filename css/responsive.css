@@ -42,7 +42,7 @@
   .features-list li {
     display: inline-block;
     vertical-align: top;
-    width: 50%; }
+    /*width: 50%;*/ }
   .video-block {
     min-height: 250px; }
   .trial-block .alignleft {
